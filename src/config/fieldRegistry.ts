@@ -232,11 +232,6 @@ export const FIELD_VALIDATION_RULES: Record<string, FieldValidation> = {
     pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
     patternMessage: 'Must be a valid email address',
   },
-  STUDENT_EMAIL: {
-    required: true,
-    pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-    patternMessage: 'Must be a valid email address',
-  },
   NATIONALITY: { required: true, pattern: /^[A-Za-z\s]{2,50}$/, patternMessage: 'Letters only, 2–50 chars' },
   RELIGION: { required: true, pattern: /^[A-Za-z\s]{2,50}$/, patternMessage: 'Letters only, 2–50 chars' },
   COMMUNITY: { required: true, pattern: /^[A-Za-z\s]{2,50}$/, patternMessage: 'Letters only, 2–50 chars' },
